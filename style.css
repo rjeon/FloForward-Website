@@ -1,12 +1,5 @@
 body{
-    background-color: #DA70D6;
-}
-h1{
-    display: inline;
-}
-p{
-    color: white;
-    font-family: "consolas";
+    background-color: #E1A3FF;
 }
 
 #mainmessage{
@@ -16,24 +9,17 @@ p{
     margin-top: 50px;
 }
 
-#title{
-    color: #fa2583;
+
+#page{
     display: inline;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-left: 100px;
-    text-decoration: none;
-}
-
-#page:hover{
-    text-decoration: underline; 
-}
-
-#check{
-    width: 10px;
-    height: 10px;
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
     margin-left: 300px;
-    font-size: 12px;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+#check:hover{
+    text-decoration: underline;
 }
