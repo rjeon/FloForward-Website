@@ -1,0 +1,39 @@
+body{
+    background-color: #DA70D6;
+}
+h1{
+    display: inline;
+}
+p{
+    color: white;
+    font-family: "consolas";
+}
+
+#mainmessage{
+    width: 1000px;
+    height: 1000px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#title{
+    color: #fa2583;
+    display: inline;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#page:hover{
+    text-decoration: underline; 
+}
+
+#check{
+    width: 10px;
+    height: 10px;
+    margin-left: 300px;
+    font-size: 12px;
+    text-decoration: none;
+}
