@@ -21,9 +21,5 @@ body{
 }
 
 #check:hover{
-<<<<<<< Updated upstream
-    text-decoration: underline;
-=======
     color: red;
->>>>>>> Stashed changes
 }
