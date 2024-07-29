@@ -3,13 +3,19 @@ body{
     font-family: Poppins;
 }
 
-#mainmessage{
+/* Mission Statement */
+#mission{
     font-size: 30px;
     background-image: linear-gradient(to right, #FF0998, #9B07E1);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #E1A3FF
 }
 
-
-#page{
+/* Page Hyperlinks */
+#links{
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -20,8 +26,16 @@ body{
     margin-top: -12%;
 }
 
-#check{
+/* Hyperlink Decoration */
+#linkDec{
     text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color:black;
 }
 
 /*.button{
@@ -34,9 +48,68 @@ body{
     transform: translate(-50%, -50%);
 } */
 
+/* FloForward Logo Class*/
 .logo{
     height: 350px;
     width: 350px;
     margin-left: 2%;
     display: inline;
+}
+
+#contactus{
+    margin-top: -75px;
+    font-size: 30px;
+}
+
+#interest{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    row-gap: 5px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: -7%;
+}
+
+#name{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#email{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#comment{
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#newreset{
+    margin-top: -2%;
+    margin-left: -13%;
+}
+
+#clear{
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#newsubmission{
+    margin-top: -2.4%;
+    margin-left: 12.5%;
+}
+
+#submission{
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
