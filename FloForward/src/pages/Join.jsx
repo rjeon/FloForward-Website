@@ -1,6 +1,7 @@
 import logo from "/src/pages/images/logo.jpg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faInstagram} from '@fortawesome/free-brands-svg-icons'
+import insta from "/src/pages/images/instagram.png"
+import amazon from "/src/pages/images/amazon.png"
+import gform from "/src/pages/images/gform.png"
 
 function Join(){
     return(
@@ -64,8 +65,16 @@ function Join(){
                 </ul>        
 
                 <a href="https://instagram.com/floforwardperiod/" target="_blank">
-                    <FontAwesomeIcon icon={faInstagram} />
+                    <img src={insta} class="instagramj" />
                 </a>     
+
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFfpZ3RS0SI6cHLRHnOuyPafA9XKqFygmmuRzm1ASWcFI8jw/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
+                    <img src={gform} class="gform" />
+                </a>
+
+                <a href="https://amazon.com" target="_blank">
+                    <img src={amazon} class="amazon" />
+                </a>
             </body>
         </div>
     );

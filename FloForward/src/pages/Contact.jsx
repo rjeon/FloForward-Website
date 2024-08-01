@@ -1,6 +1,5 @@
 import logo from "/src/pages/images/logo.jpg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faInstagram} from '@fortawesome/free-brands-svg-icons'
+import insta from "/src/pages/images/instagram.png"
 
 function Contact(){
     return(
@@ -58,7 +57,7 @@ function Contact(){
                         </form>
 
                         <a href="https://instagram.com/floforwardperiod/" target="_blank">
-                            <FontAwesomeIcon icon={faInstagram} />
+                            <img src={insta} class="instagramc" />
                         </a>        
                                           
                     </div>
