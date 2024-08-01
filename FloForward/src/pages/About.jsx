@@ -1,16 +1,17 @@
+import logo from "/src/pages/images/logo.jpg"
+
 function About(){
     return(
         <div>
             <head>
-                <title>FloForward</title>
-                <link rel="stylesheet" href="style.css"></link>
                 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></link>
+                <link rel="icon" href={logo} />
             </head>
 
             <body>
                 <p>
                     <a href="home">
-                        <img src="logo.jpg" class="logo"></img>
+                        <img src={logo} class="logo"></img>
                     </a>        
                 </p>
 
@@ -29,8 +30,8 @@ function About(){
                         </b>
                     </a>
 
-                    <a id="linkDec" href="donate">
-                        Donate
+                    <a id="linkDec" href="join">
+                        Join Us
                     </a>
                 </div>
 

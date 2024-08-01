@@ -1,7 +1,7 @@
 import Home from "./pages/Home.jsx"
 import Contact from "./pages/Contact.jsx"
 import About from "./pages/About.jsx"
-import Donate from "./pages/Donate.jsx"
+import Join from "./pages/Join.jsx"
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,9 +18,7 @@ function App() {
         <Route path="/home" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/donate" element={<Donate/>}/>
-
-      
+        <Route path="/join" element={<Join/>}/>
       </Routes>
     </Router>
       

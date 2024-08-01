@@ -1,38 +1,39 @@
+import logo from "/src/pages/images/logo.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 function Contact(){
     return(
         <div>
             <head>
-                <title>FloForward</title>
-                <link rel="stylesheet" href="style.css"></link>
                 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></link>
-                <script src="https://kit.fontawesome.com/b3419c235c.js" crossorigin="anonymous"></script>
+                <link rel="icon" href={logo} />
             </head>
 
             <body>
                 <p>
-                    <a href="home" target>
-                        <img src="logo.jpg" class="logo"></img>
+                    <a href="home">
+                        <img src={logo} class="logo"></img>
                     </a>    
                 </p>
 
                 <div id="links">
-                    <a id="linkDec" href="home" target>
+                    <a id="linkDec" href="home">
                         Home
                     </a>
                     
-                    <a id="linkDec" href="contact" target>
+                    <a id="linkDec" href="contact">
                         <b>
                             Contact
                         </b>
                     </a>
 
-                    <a id="linkDec" href="about" target>
+                    <a id="linkDec" href="about">
                         About Us
                     </a>
 
-                    <a id="linkDec" href="donate" target> 
-                        Donate
+                    <a id="linkDec" href="join"> 
+                        Join Us
                     </a>
                 </div>
 
@@ -49,27 +50,23 @@ function Contact(){
                             <input type="text" id="email" placeholder="Email"></input>
                             <input type="text" id="comment" placeholder="Comments"></input>
 
-                            <br>
-                            </br>
-
-                            <div id="newreset">
-                                <input type="reset" id="clear"></input>
-                            </div>
-
+                            <br></br>
                     
                             <div id="newsubmission">
                                 <input type="submit" id="submission"></input>
                             </div>
                         </form>
 
-                        <div id="socialmedia">
+                        <a href="https://instagram.com/floforwardperiod/" target="_blank">
+                            <FontAwesomeIcon icon={faInstagram} />
+                        </a>        
+                                          
+                    </div>
+                    <div id="socialmedia">
                             <strong>
                                 Follow our social media!
                             </strong>
-                        </div>
-
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
+                    </div>      
                 </center>
             </body>
         </div>

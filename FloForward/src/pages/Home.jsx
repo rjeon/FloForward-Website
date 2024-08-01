@@ -1,16 +1,17 @@
+import logo from "/src/pages/images/logo.jpg"
+
 function Home() {
     return(
         <div>
             <head>
-                <title>FloForward</title>
-                <link rel="stylesheet" href="style.css"></link>
                 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></link>
+                <link rel="icon" href={logo}/>
             </head>
             
             <body>
                 <p>
                     <a href="home">
-                        <img src="logo.jpg" class="logo"></img>
+                        <img src={logo} class="logo"></img>
                     </a>    
                     
                 </p>
@@ -22,7 +23,7 @@ function Home() {
                     </b>
                 </a>
                     
-                <a id="linkDec" href="contact" target>
+                <a id="linkDec" href="contact">
                     Contact
                 </a>
 
@@ -30,15 +31,24 @@ function Home() {
                     About Us
                 </a>
 
-                <a id="linkDec" href="donate" target>
-                    Donate
+                <a id="linkDec" href="join">
+                    Join Us
                 </a>
             </div>
             
 
             <center> 
-                <div id="mission">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde eum. Eos, excepturi maiores. Nulla iusto perferendis architecto cumque ipsum expedita tempora a quas, repudiandae esse soluta adipisci id deleniti?
+                <h2 id="missiont">
+                    Our Mission:
+                </h2>
+
+                <div id="mp">
+                    <p id="statement">
+                        "We empower girls by providing them with access to essential hygienic supplies, resources, and opportunities, 
+                        ensuring that no girl has to miss school due to lack of accessibility. We are committed to breaking stigmas and promoting education, 
+                        fostering an environment where every girl can achieve her full potential without barriers. By advocating for menstrual health and 
+                        education, we aim to create a world where girls can thrive with confidence and dignity."
+                    </p>
                 </div>    
             </center>
 

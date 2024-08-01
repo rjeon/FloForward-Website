@@ -1,17 +1,31 @@
+/* Body Page Design */
 body{
   background-color: #E1A3FF;
   font-family: Poppins;
 }
 
-/* Mission Statement */
-#mission{
-  font-size: 30px;
+/* Mission Title */
+h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: -6%;
+  margin-bottom: 1%;
+}
+
+
+/* Mission and Participate Statement Background */
+#mp{
   background-image: linear-gradient(to right, #FF0998, #9B07E1);
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 10px;
-  padding: 5px;
-  border-color: #E1A3FF
+  margin-left: -1.2%;
+  margin-right: -1.2%;
+  margin-bottom: -1%;  
+}
+
+/* Mission Statement */
+#statement{
+  font-size: 23px;
+  width: 1300px;
+  font-weight: bold;
 }
 
 /* Page Hyperlinks */
@@ -31,24 +45,17 @@ body{
   text-decoration: none;
 }
 
+/* Hyperlink Color */
 a:link{
   color: black;
 }
+
+/* Hyperlink Visited Color */
 a:visited{
   color:black;
 }
 
-/*.button{
-  width: 110px;
-  margin: 0px;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-} */
-
-/* FloForward Logo Class*/
+/* FloForward Logo Class */
 .logo{
   height: 350px;
   width: 350px;
@@ -56,17 +63,21 @@ a:visited{
   display: inline;
 }
 
+/* Contact us statement */
 #contactus{
-  margin-top: -75px;
+  margin-top: -6%;
   font-size: 30px;
 }
 
+/* Follow social media statement */
 #socialmedia{
-  margin-top: -10%;
-  margin-left: -8%;
+  margin-top: -30%;
+  margin-left: 45%;
   font-size: 30px;
+  color: red;
 }
 
+/* Form Design */
 #interest{
   display: flex;
   flex-direction: column;
@@ -76,13 +87,17 @@ a:visited{
   row-gap: 5px;
   margin-top: 5%;
   margin-bottom: 15%;
-  margin-left: -7%;
+  margin-left: -12%;
 }
 
+/* Form Placement */
 #socials{
   background-color: black;
+  margin-left: -1.25%;
+  margin-right: -1.2%;
 }
 
+/* Name for form */
 #name{
   width: 300px;
   font-size: 20px;
@@ -93,7 +108,7 @@ a:visited{
   margin-left: -30%;
 }
 
-
+/* Email for form */
 #email{
   width: 300px;
   font-size: 20px;
@@ -104,6 +119,7 @@ a:visited{
   margin-left: -30%;
 }
 
+/* Comment for form */
 #comment{
   width: 300px;
   height: 100px;
@@ -115,32 +131,60 @@ a:visited{
   margin-left: -30%;
 }
 
-#newreset{
-  margin-top: -2%;
-  margin-left: -44%;
-}
-
-#clear{
-  height: 20px;
-  font-size: 15px;
-  font-weight: bold;
-}
-
+/* Submission button form placement */
 #newsubmission{
   margin-top: -2.4%;
-  margin-left: -16.5%;
+  margin-left: -29.5%;
 }
 
+/* Submission button design */
 #submission{
-  height: 20px;
-  font-size: 15px;
+  font-size: 16px;
+  text-align: center;
   font-weight: bold;
+  background-image: linear-gradient(to right, #FF0998, #9B07E1);
+  border-radius: 10px;
+  padding: 5px;
+  border-color: #E1A3FF
+
 }
 
+/* Instagram logo design */
 .fa-instagram{
   color: #9B07E1;
   font-size: 30px;
   position: absolute;
-  top: 111%;
-  right: 50%;
+  top: 125%;
+  right: 35%;
+}
+
+/* Participate Title */
+#participatet{  
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Participation Description */
+#participationd{
+  width: 800px;
+  font-size: 20px;
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+
+/* Options Title */
+#options{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 8%;
+  margin-bottom: -5%;
+}
+
+/* Participation Instruction */
+#participation{
+  width: 800px;
+  font-size: 20px;
+  margin-top: 6%;
+  margin-bottom: -5%;
+  margin-left: 20%;
 }
