@@ -8,7 +8,10 @@ import {
   Route,
 } from "react-router-dom";
 
+import Login from "./auth/Login.jsx"
+import Register from "./auth/Register.jsx"
 
+import {ToastContainer} from "react-toastify"
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/join" element={<Join/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/register" element={<Register/>}/>
       </Routes>
+      <ToastContainer/>
     </Router>
       
   );
