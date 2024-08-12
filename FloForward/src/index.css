@@ -14,8 +14,8 @@ h2{
 }
 
 
-/* Mission and Participate Statement Background */
-#mp{
+/* Background Emphasis */
+#be{
   background-image: linear-gradient(to right, #FF0998, #9B07E1);
   margin-left: -1.2%;
   margin-right: -1.2%;
@@ -37,7 +37,7 @@ h2{
   font-size: 25px;
   column-gap: 80px;
   margin-bottom: 15%;
-  margin-left: 45%;
+  margin-left: 35%;
   margin-top: -12%;
 }
 
@@ -212,4 +212,10 @@ a:visited{
   position: absolute;
   top: 152%;
   right: 57%;
+}
+
+/* Meet Team Title Design */
+#teamt{
+  font-weight: bold;
+  font-size: 30px;
 }

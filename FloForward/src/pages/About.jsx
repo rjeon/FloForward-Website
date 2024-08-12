@@ -33,11 +33,17 @@ function About(){
                     <a id="linkDec" href="join">
                         Join Us
                     </a>
+
+                    <a id="linkDec" href="opportunity">
+                        Opportunity
+                    </a>
                 </div>
 
                 <center> 
-                    <div id="mission">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde eum. Eos, excepturi maiores. Nulla iusto perferendis architecto cumque ipsum expedita tempora a quas, repudiandae esse soluta adipisci id deleniti?
+                    <div id="be">
+                        <h2 id="teamt">
+                            MEET THE TEAM
+                        </h2>
                     </div>    
                 </center>
             </body>

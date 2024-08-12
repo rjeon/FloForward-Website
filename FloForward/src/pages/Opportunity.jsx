@@ -1,6 +1,6 @@
 import logo from "/src/pages/images/logo.jpg"
 
-function Home() {
+function Opportunity() {
     return(
         <div>
             <head>
@@ -13,14 +13,11 @@ function Home() {
                     <a href="home">
                         <img src={logo} class="logo"></img>
                     </a>    
-                    
                 </p>
                 
             <div id="links">    
                 <a id="linkDec" href="home">
-                    <b>
-                        Home
-                    </b>
+                    Home
                 </a>
                     
                 <a id="linkDec" href="contact">
@@ -36,24 +33,17 @@ function Home() {
                 </a>
 
                 <a id="linkDec" href="opportunity">
-                    Opportunity
+                    <b>
+                        Opportunity
+                    </b>
                 </a>
             </div>
             
 
             <center> 
-                <h2>
-                    Our Mission:
-                </h2>
-
-                <div id="be">
-                    <p id="statement">
-                        "We empower girls by providing them with access to essential hygienic supplies, resources, and opportunities, 
-                        ensuring that no girl has to miss school due to lack of accessibility. We are committed to breaking stigmas and promoting education, 
-                        fostering an environment where every girl can achieve her full potential without barriers. By advocating for menstrual health and 
-                        education, we aim to create a world where girls can thrive with confidence and dignity."
-                    </p>
-                </div>    
+                <h2 id="missiont">
+                    Coming Soon!
+                </h2>  
             </center>
 
             </body>
@@ -61,4 +51,4 @@ function Home() {
     );
 }
 
-export default Home
+export default Opportunity

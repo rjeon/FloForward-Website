@@ -55,6 +55,10 @@ function Contact(){
                     <a id="linkDec" href="join"> 
                         Join Us
                     </a>
+
+                    <a id="linkDec" href="opportunity">
+                        Opportunity
+                    </a>
                 </div>
 
                 <center> 

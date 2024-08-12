@@ -36,10 +36,14 @@ function Join(){
                             Join Us
                         </b>
                     </a>
+
+                    <a id="linkDec" href="opportunity">
+                        Opportunity
+                    </a>
                 </div>
 
                 <center> 
-                    <div id="mp">
+                    <div id="be">
                         <h2 id="participatet"> 
                             Ways to Participate
                         </h2>
