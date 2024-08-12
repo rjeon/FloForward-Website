@@ -43,7 +43,7 @@ function Join(){
                 </div>
 
                 <center> 
-                    <div id="be">
+                    <div id="bt">
                         <h2 id="participatet"> 
                             Ways to Participate
                         </h2>

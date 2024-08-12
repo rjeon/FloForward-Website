@@ -42,11 +42,11 @@ function Home() {
             
 
             <center> 
-                <h2>
+                <h2 id="missiont">
                     Our Mission:
                 </h2>
 
-                <div id="be">
+                <div id="mb">
                     <p id="statement">
                         "We empower girls by providing them with access to essential hygienic supplies, resources, and opportunities, 
                         ensuring that no girl has to miss school due to lack of accessibility. We are committed to breaking stigmas and promoting education, 

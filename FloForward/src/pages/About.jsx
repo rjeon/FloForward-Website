@@ -40,7 +40,7 @@ function About(){
                 </div>
 
                 <center> 
-                    <div id="be">
+                    <div id="bt">
                         <h2 id="teamt">
                             MEET THE TEAM
                         </h2>

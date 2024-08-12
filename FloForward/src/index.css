@@ -6,20 +6,29 @@ body{
 }
 
 /* Mission Title */
-h2{
+#missiont{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: -6%;
   margin-bottom: 1%;
 }
 
 
 /* Background Emphasis */
-#be{
+#mb{
   background-image: linear-gradient(to right, #FF0998, #9B07E1);
   margin-left: -1.2%;
   margin-right: -1.2%;
   margin-bottom: -1%;  
+}
+
+/* Background for Titles */
+#bt{
+  background-image: linear-gradient(to right, #FF0998, #9B07E1);
+  margin-left: -1.2%;
+  margin-right: -1.2%;
+  margin-bottom: -1%;
+  margin-top: -5%;  
 }
 
 /* Mission Statement */
