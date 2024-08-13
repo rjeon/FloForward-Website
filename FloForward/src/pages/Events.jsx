@@ -1,6 +1,6 @@
 import logo from "/src/pages/images/logo.jpg"
 
-function Opportunity() {
+function Events() {
     return(
         <div>
             <head>
@@ -28,13 +28,13 @@ function Opportunity() {
                     About Us
                 </a>
 
-                <a id="linkDec" href="join">
-                    Join Us
+                <a id="linkDec" href="getinvolved">
+                    Get Involved
                 </a>
 
-                <a id="linkDec" href="opportunity">
+                <a id="linkDec" href="events">
                     <b>
-                        Opportunity
+                        Events
                     </b>
                 </a>
             </div>
@@ -51,4 +51,4 @@ function Opportunity() {
     );
 }
 
-export default Opportunity
+export default Events

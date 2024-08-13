@@ -3,7 +3,7 @@ import insta from "/src/pages/images/instagram.png"
 import amazon from "/src/pages/images/amazon.png"
 import gform from "/src/pages/images/gform.png"
 
-function Join(){
+function Getinv(){
     return(
         <div>
             <head>
@@ -31,14 +31,14 @@ function Join(){
                         About Us
                     </a>
 
-                    <a id="linkDec" href="join">
+                    <a id="linkDec" href="getinvolved">
                         <b> 
-                            Join Us
+                            Get Involved
                         </b>
                     </a>
 
-                    <a id="linkDec" href="opportunity">
-                        Opportunity
+                    <a id="linkDec" href="events">
+                        Events
                     </a>
                 </div>
 
@@ -84,4 +84,4 @@ function Join(){
     );
 }
 
-export default Join
+export default Getinv

@@ -1,8 +1,8 @@
 import Home from "./pages/Home.jsx"
 import Contact from "./pages/Contact.jsx"
 import About from "./pages/About.jsx"
-import Join from "./pages/Join.jsx"
-import Opportunity from "./pages/Opportunity.jsx"
+import Getinv from "./pages/Getinv.jsx"
+import Events from "./pages/Events.jsx"
 
 
 import {
@@ -19,8 +19,8 @@ function App() {
         <Route path="/home" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/join" element={<Join/>}/>
-        <Route path="/opportunity" element={<Opportunity/>}/>
+        <Route path="/getinvolved" element={<Getinv/>}/>
+        <Route path="/events" element={<Events/>}/>
       </Routes>
     </Router>
       

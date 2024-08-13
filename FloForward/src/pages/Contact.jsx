@@ -52,12 +52,12 @@ function Contact(){
                         About Us
                     </a>
 
-                    <a id="linkDec" href="join"> 
-                        Join Us
+                    <a id="linkDec" href="getinvolved"> 
+                        Get Involved
                     </a>
 
-                    <a id="linkDec" href="opportunity">
-                        Opportunity
+                    <a id="linkDec" href="events">
+                        Events
                     </a>
                 </div>
 
