@@ -3,6 +3,8 @@ body{
   background-color: #E1A3FF;
   font-family: Poppins;
   margin-bottom: 15%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 /* Mission Title */
@@ -11,30 +13,33 @@ body{
   font-size: 35px;
   margin-top: -6%;
   margin-bottom: 1%;
+  width: 100%;
 }
 
 
 /* Background Emphasis */
 #mb{
   background-image: linear-gradient(to right, #FF0998, #9B07E1);
-  margin-left: -1.2%;
-  margin-right: -1.2%;
-  margin-bottom: -1%;  
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
 }
 
 /* Background for Titles */
 #bt{
   background-image: linear-gradient(to right, #FF0998, #9B07E1);
-  margin-left: -1.2%;
-  margin-right: -1.2%;
-  margin-bottom: -1%;
-  margin-top: -5%;  
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  margin-top: -2%;
+  height: 100%;  
+  width: 100%;
 }
 
 /* Mission Statement */
 #statement{
   font-size: 23px;
-  width: 1300px;
+  width: 100%;
   font-weight: bold;
 }
 
@@ -69,7 +74,7 @@ a:visited{
 .logo{
   height: 350px;
   width: 350px;
-  margin-left: 2%;
+  margin-left: 0%;
   display: inline;
 }
 
@@ -77,7 +82,7 @@ a:visited{
 #contactus{
   margin-top: -6%;
   font-size: 30px;
-  width: 800px;
+  width: 65%;
 }
 
 /* Follow social media statement */
