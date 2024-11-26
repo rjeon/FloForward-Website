@@ -50,9 +50,9 @@ function Getinv(){
                     </div>    
 
                     <p id="participationd">
-                        I have seasonal drop boxes and drives in the Trumbull County, Ohio area and deliver period 
+                        We have seasonal drop boxes and drives in the Trumbull County, Ohio area and deliver period 
                         packages to various locations, schools, religious facilities, public restrooms, and internationally! 
-                        I send letters and notes with my packages!
+                        We send letters and notes alongside packages!
                     </p>
 
                     <br />
