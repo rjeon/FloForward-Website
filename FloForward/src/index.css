@@ -5,6 +5,8 @@ body{
   margin-bottom: 15%;
   margin-left: 0%;
   margin-right: 0%;
+  width: 100%;
+  padding-top: 20px;
 }
 
 /* Mission Title */
@@ -32,14 +34,12 @@ body{
   margin-right: 0%;
   margin-bottom: 0%;
   margin-top: -2%;
-  height: 100%;  
   width: 100%;
 }
 
 /* Mission Statement */
 #statement{
   font-size: 23px;
-  width: 100%;
   font-weight: bold;
 }
 
@@ -169,8 +169,8 @@ a:visited{
 .instagramc{
   height: 38px;
   position: absolute;
-  top: 120%;
-  right: 35%;
+  padding-left: 15%;
+  margin-top: -30%;
 }
 
 /* Participate Title */
@@ -206,25 +206,28 @@ a:visited{
 
 /* Google Logo Form Design */
 .gform{
+  display: block;
   height: 42px;
   position: absolute;
-  top: 150%;
-  right: 47%;
+  top: 170%;
+  padding-left: 47%;
 }
 
 /* Join page Instagram Logo Design */
 .instagramj{
+  display: block;
   height: 38px;
   position: absolute;
-  top: 150%;
-  right: 37%;
+  top: 170%;
+  right: 40%;
 }
 
 /* Amazon Logo Design */
 .amazon{
+  display: block;
   height: 30px;
   position: absolute;
-  top: 152%;
+  top: 172%;
   right: 57%;
 }
 
@@ -232,4 +235,198 @@ a:visited{
 #teamt{
   font-weight: bold;
   font-size: 30px;
+}
+
+#introStart{
+  font-weight: bold;
+  color: #301934;
+}
+
+#introName{
+  font-weight: bold;
+  color: #301934;
+  margin-top: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+}
+
+.left{
+  position: absolute;
+  right: 65%;
+  padding: 10px;
+}
+
+.aabdullah{
+  height: 250px;
+  margin-left: 80%;
+  display: inline;
+}
+
+#bio{
+  width: 800px;
+  font-size: 17px;
+  margin-top: -7%;
+  margin-bottom: -5%;
+}
+
+/* Responsive Web Links */
+@media only screen and (max-width: 800px) {
+  .fontsize {
+    display: block;
+    width: 90%; 
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+  .logo {
+    padding-left: 30%;
+    width: 50%;
+    height: 50%;
+    display: block;
+  }
+
+  #links{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    column-gap: 25px;
+    margin-bottom: 15%;
+    margin-left: 2%;
+    margin-top: -12%;
+  }
+
+  #missiont {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -6%;
+    margin-bottom: -2%;
+    width: 100%;
+  }
+
+  #statement{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #socials{
+    display: block;
+    background-color: black;
+    padding-left: 0px;
+    margin-right: -1.2%;
+    bottom: 50%;
+  }
+  
+  #name{
+    width: 170px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 7px;
+    border-color:color-mix(in lch, plum, pink);
+    margin-top: 5%;
+    margin-left: -30%;
+  }
+  
+  #email{
+    width: 170px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 7px;
+    border-color:color-mix(in lch, plum, pink);
+    margin-top: 1%;
+    margin-left: -30%;
+  }
+  
+  #comment{
+    width: 170px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 7px;
+    border-color:color-mix(in lch, plum, pink);
+    margin-top: 1%;
+    margin-left: -30%;
+  }
+
+  #newsubmission {
+    margin-top: -7%;
+    margin-left: -29.5%;
+  }
+
+  #socialmedia {
+    display: block;
+    font-size: 19px;
+    margin-top: -49%;
+    padding-left: 44px;
+    color: #E1A3FF;
+  }
+  .instagramc{
+    height: 36px;
+    position: absolute;
+    padding-left: 15%;
+    margin-top: -25%;
+  }
+
+  #contactus{
+    margin-top: -6%;
+    font-size: 25px;
+    width: 65%;
+  }
+
+  #participatet{  
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #participationd{
+    width: 400px;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+
+  #options{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 8%;
+    margin-bottom: -5%;
+  }
+  
+  /* Participation Instruction */
+  #participation{
+    width: 400px;
+    font-size: 17px;
+    margin-top: 6%;
+    margin-bottom: -5%;
+    margin-left: 5%;
+  }
+  
+  /* Google Logo Form Design */
+  .gform{
+    display: block;
+    height: 40px;
+    position: absolute;
+    padding-top: 20%;
+    top: 160%;
+    right: 44%;
+  }
+
+  /* Join page Instagram Logo Design */
+  .instagramj{
+    display: block;
+    height: 36px;
+    position: absolute;
+    padding-top: 20%;
+    top: 140%;
+    right: 44%;
+  }
+
+  /* Amazon Logo Design */
+  .amazon{
+    display: block;
+    height: 28px;
+    position: absolute;
+    padding-top: 20%;
+    top: 152%;
+    right: 38%;
+  }
 }

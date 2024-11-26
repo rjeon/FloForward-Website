@@ -2,7 +2,7 @@ import logo from "/src/pages/images/logo.jpg"
 
 function Events() {
     return(
-        <div>
+        <div class="fontsize">
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
             <head>

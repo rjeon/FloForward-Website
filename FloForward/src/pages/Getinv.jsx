@@ -5,9 +5,7 @@ import gform from "/src/pages/images/gform.png"
 
 function Getinv(){
     return(
-        <div>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+        <div class="fontsize">
             <head>
                 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></link>
                 <link rel="icon" href={logo} />

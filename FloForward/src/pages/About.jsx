@@ -1,9 +1,10 @@
 import logo from "/src/pages/images/logo.jpg"
+import aabdullah from "/src/pages/images/aabdullah.png"
+import rjeon from "/src/pages/images/rjeon.png"
 
 function About(){
     return(
-        <div>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <div class="fontsize">
             <head>
                 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></link>
                 <link rel="icon" href={logo} />
@@ -45,8 +46,34 @@ function About(){
                         <h2 id="teamt">
                             MEET THE TEAM
                         </h2>
-                    </div>    
+                    </div>
                 </center>
+
+                <h3 class="left" id="introStart">
+                    Hi! Nice to meet you all, and my name is...
+                </h3>
+                
+                <h2 class="left" id="introName"> 
+                    AUTUMN ABDULLAH
+                </h2>
+
+                <p>
+                    <a>
+                        <img src={aabdullah} class="aabdullah"></img>
+                    </a>        
+                </p>
+
+                <center>
+                    <p id="bio">
+                        I am the founder, creator, media manager, and assistant web designer of Flo Forward!
+                        I am currently a STEM student at Youngstown State University, aiming to reach my full potential 
+                        and help other women do the same. I started this organization by setting up donation boxes at local
+                        businesses in my area and collected over 3,000 hygiene items to donate to schools, public restrooms, 
+                        shelters, and religious facilities. I am constantly launching new programs to help my community get resources, 
+                        not only sanitary products, but also education and mentors to help move them in the right direction for success.
+                    </p>
+                </center>
+
             </body>
 
         </div>
