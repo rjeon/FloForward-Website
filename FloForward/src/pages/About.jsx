@@ -85,6 +85,36 @@ function About(){
                 </h3>
                 
                 <h2 class="right" id="introName"> 
+                    RIA GOVIL
+                </h2>
+
+                <p>
+                    <a>
+                        <img src={rgovil} class="rgovil"></img>
+                    </a>        
+                </p>
+
+                <center>
+                    <p id="role">
+                        I am a partner of FloForward!
+                    </p>
+
+                    <p id="bio">
+                        From a young age I frequently traveled to India. There I saw the realities of the world: 
+                        hunger, urban slums, extreme population growth. Coming from a relatively privileged background 
+                        in the United States, my eyes were opened to the realities of the world, one being period poverty. 
+                        I created The Paree Project and partnered with FloForward to address the global issue of period poverty. 
+                        It brings me joy to imagine the impact I can create, giving women the opportunities they inherently deserve.
+                    </p>
+                </center>
+
+                <hr color="purple" noshade />
+                
+                <h3 class="left" id="introStart">
+                    Hi! Nice to meet you all, and my name is...
+                </h3>
+                
+                <h2 class="left" id="introName"> 
                     ROBERT JEON
                 </h2>
 
@@ -104,37 +134,7 @@ function About(){
                         I love to develop websites and code programs to make life simpler. 
                         I am an avid enjoyer of Sci-Fi movies and novels, and during my free time, I enjoy watching YouTube
                         as well as playing video games. I've been with FloForward for about half a year to help support resources for 
-                        women.
-                    </p>
-                </center>
-
-                <hr color="purple" noshade />
-                
-                <h3 class="left" id="introStart">
-                    Hi! Nice to meet you all, and my name is...
-                </h3>
-                
-                <h2 class="left" id="introName"> 
-                    RIA GOVIL
-                </h2>
-
-                <p>
-                    <a>
-                        <img src={rgovil} class="rgovil"></img>
-                    </a>        
-                </p>
-
-                <center>
-                    <p id="role">
-                        I am a partner of FloForward!
-                    </p>
-
-                    <p id="bio">
-                    From a young age I frequently traveled to India. There I saw the realities of the world: 
-                    hunger, urban slums, extreme population growth. Coming from a relatively privileged background 
-                    in the United States, my eyes were opened to the realities of the world, one being period poverty. 
-                    I created The Paree Project and partnered with FloForward to address the global issue of period poverty. 
-                    It brings me joy to imagine the impact I can create, giving women the opportunities they inherently deserve. 
+                        women. 
                     </p>
                 </center>
             </body>

@@ -237,12 +237,14 @@ a:visited{
   font-size: 30px;
 }
 
+/* Introduction to biography */
 #introStart{
   font-weight: bold;
   color: #301934;
   margin-top: -1%; 
 }
 
+/* Name of member */
 #introName{
   font-weight: bold;
   color: #301934; 
@@ -256,6 +258,7 @@ a:visited{
   margin-left: 5%;
 }
 
+/* Headshot of Autumn */
 .aabdullah{
   height: 250px;
   margin-left: 82%;
@@ -263,17 +266,20 @@ a:visited{
   margin-bottom: -12%;
 }
 
+/* Headshot of Robert */
 .rjeon{
-  height: 300px;
-  margin-left: 3%;
+  height: 290px;
+  margin-top: -3%;
+  margin-left: 81.5%;
   display: inline;
   margin-bottom: -16%;
 }
 
+/* Headshot of Ria */
 .rgovil{
   height: 200px;
-  margin-top: -2%;
-  margin-left: 75%;
+  margin-top: -1%;
+  margin-left: 3%;
   display: inline;
   margin-bottom: -4%;
 }
@@ -302,6 +308,7 @@ hr{
   width: 90%;
   margin-bottom: 4%;
 }
+
 /* Responsive Web Links */
 @media only screen and (max-width: 800px) {
   .fontsize {
